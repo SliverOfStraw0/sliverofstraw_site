@@ -6,11 +6,14 @@ body{
 
 header{
     padding: 10px;
+    margin-left: 15%;
 }
 
 main{
     padding: 10px;
+    margin-left: 15%;
 }
+
 
 
 h1{
@@ -27,4 +30,8 @@ a:hover{
 
 .sos{
     color:#c2f2df;
+}
+
+.separator{
+    margin-top: 50px;
 }

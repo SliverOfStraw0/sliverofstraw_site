@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    color: whitesmoke;
+}
+
+header{
+    padding: 10px;
+}
+
+main{
+    padding: 10px;
+}
+
+
+h1{
+    
+}
+
+a{
+    color: #AD03DE;
+}
+
+a:hover{
+    color: #cf54f1;
+}
+
+.sos{
+    color:#c2f2df;
+}

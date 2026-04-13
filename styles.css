@@ -34,6 +34,14 @@ a:hover{
     margin-top: 50px;
 }
 
+.blog-image{
+    max-width: 400px;
+}
+
+.blog-section{
+    max-width: 400px;
+}
+
 @media screen and (max-width: 600px) {
     main{
         margin-left: 0px;
@@ -41,5 +49,13 @@ a:hover{
 
     header{
         margin-left: 0px;
+    }
+
+    .blog-image{
+        width: 100%;
+    }
+
+    .blog-section{
+        width: 100%;
     }
 }

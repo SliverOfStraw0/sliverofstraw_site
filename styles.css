@@ -26,6 +26,12 @@ a:hover{
     color: #cf54f1;
 }
 
+footer{
+    background-color: lightgray;
+    min-height: 50px;
+    padding: 10px;
+}
+
 .sos{
     color:#c2f2df;
 }

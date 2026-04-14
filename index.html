@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sliver's</title>
     <link href="styles.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#gototheblogs").click(function(){
+                $("#fadehighlight").show();
+                $("#fadehighlight").fadeOut(3000);
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -34,7 +43,7 @@
             <ul>
                 <li><a href="https://mastodon.social/@sliverofstraw">Mastodon</a></li>
                 <li><a href="">Tiktok</a></li>
-                <li><a href="blogs/coming-soon.html">Personal Blog</a></li>
+                <li><a id="gototheblogs" href="#blogs">Personal Blog</a></li>
                 <li><a href="https://www.youtube.com/@SliverOfStraw0">Youtube</a></li>
                 <li><a href="https://archiveofourown.org/users/SliverOfStraw0">Ao3</a></li>
                 <li><a href="https://bsky.app/profile/sliverofstraw0.bsky.social">Bsky</a></li>
@@ -65,16 +74,17 @@
 
         <div class="separator"></div>
 
-        <section>
-            <p class="sos">[[LIST OF ACTIVE BLOGS]]</p>
+        <section style="position: relative;">
+            <p id="blogs" class="sos">[[LIST OF ACTIVE BLOGS]]</p>
+            <div id="fadehighlight" class="fadeout-button-press"></div>
             <ul>
                 <li><a href="blogs/coming-soon.html">Blog directory</a></li>
                 <li><a href="blogs/moss-log.html">Moss log blog</a></li>
                 <li><a href="blogs/frank-the-snake.html">Frank the snake blog</a></li>
             </ul>
         </section>
+        <div style="margin-top: 200px;"></div>
 
     </main>
-    <footer></footer>
 </body>
 </html>

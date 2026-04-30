@@ -14,6 +14,18 @@ header{
     grid-gap: 10px
 }
 
+.art-container-grid > a{
+    font-size: 20px;
+    padding: 1rem;
+    color: yellow;
+    text-align: center;
+    background: black;
+    outline-color: white;
+    outline-width: 1px;
+    outline-style: solid;
+    text-decoration: none;
+}
+
 .art-container-grid > div{
     font-size: 20px;
     padding: 1rem;
@@ -23,6 +35,13 @@ header{
     outline-color: white;
     outline-width: 1px;
     outline-style: solid;
+}
+
+.art-container-grid > a:hover{
+    outline-color: yellow;
+    outline-width: 1px;
+    outline-style: solid;
+    text-decoration: none;
 }
 
 .art-container-grid > div:hover{

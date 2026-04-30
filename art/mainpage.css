@@ -32,8 +32,9 @@ header{
 }
 
 .light-section{
-    padding: 1px;
-    outline: solid white;
+    padding: 5px;
+    outline-width: 1px;
+    outline-style: solid;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -43,5 +44,15 @@ header{
 }
 
 .qrcode-image-container-landing-page{
-    
+}
+
+.qrcode-image-container-landing-page img{
+    max-width: 800px;
+}
+
+@media screen and (min-width: 600px) {
+    .art-container-grid{
+        grid-template-columns: repeat(auto-fill,
+    minmax(400px, 1fr));
+    }
 }
